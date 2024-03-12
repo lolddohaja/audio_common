@@ -24,6 +24,11 @@ On ROS Kinetic, Melodic and Noetic, the [master](https://github.com/ros-drivers/
 
 On ROS2, the [ros2](https://github.com/ros-drivers/audio_common/tree/ros2) branch is recommended
 
+```bash
+sudo apt update
+sudo apt install libgstreamer1.0-dev gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-tools libgstreamer-plugins-base1.0-dev
+```
+
 ## Development, Branch and Release Policy
 
 The `master` branch is currently considered the development branch, and is released into ROS Kinetic, Melodic and Noetic with version numbers in the 0.3.x range.
